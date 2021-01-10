@@ -20,8 +20,22 @@ export const Form = styled.form<FormProps>`
 
   display: flex;
 
+  @media only screen and (max-width: 764px) {
+    flex-direction: column;
+    gap: 15px;
+
+    input {
+      flex: unset;
+    }
+
+    button {
+      border-radius: 5px;
+      align-self: center;
+    }
+  }
+
   input {
-    flex: 1;
+    /* flex: 1; */
     height: 70px;
     padding: 0 24px;
     border: 0;

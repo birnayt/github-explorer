@@ -48,6 +48,16 @@ export const RepositoryInfo = styled.section`
         color: #737380;
         margin-top: 4px;
       }
+
+      @media only screen and (max-width: 764px) {
+        strong {
+          font-size: 34px;
+        }
+
+        p {
+          font-size: 15px;
+        }
+      }
     }
   }
 
@@ -71,6 +81,16 @@ export const RepositoryInfo = styled.section`
         display: block;
         margin-top: 4px;
         color: #6c6c80;
+      }
+
+      @media only screen and (max-width: 764px) {
+        strong {
+          font-size: 34px;
+        }
+
+        span {
+          font-size: 15px;
+        }
       }
     }
   }
